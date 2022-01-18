@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		3B7787EF27965863005EE814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7787EE27965863005EE814 /* AppDelegate.swift */; };
 		3B7787F127965863005EE814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7787F027965863005EE814 /* SceneDelegate.swift */; };
-		3B7787F327965863005EE814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7787F227965863005EE814 /* ViewController.swift */; };
 		3B7787F627965863005EE814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7787F427965863005EE814 /* Main.storyboard */; };
 		3B7787F827965868005EE814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7787F727965868005EE814 /* Assets.xcassets */; };
 		3B7787FB27965868005EE814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7787F927965868005EE814 /* LaunchScreen.storyboard */; };
+		3B77880727966F4F005EE814 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77880627966F4F005EE814 /* Entry.swift */; };
+		3B77880927966F69005EE814 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77880827966F69005EE814 /* Journal.swift */; };
+		3B77880B27967096005EE814 /* JournalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77880A27967096005EE814 /* JournalListViewController.swift */; };
+		3B77880D2796712C005EE814 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77880C2796712C005EE814 /* EntryListTableViewController.swift */; };
+		3B77880F27967174005EE814 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77880E27967174005EE814 /* EntryDetailViewController.swift */; };
+		3B7788132796720F005EE814 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7788122796720F005EE814 /* EntryController.swift */; };
+		3B7788152796723B005EE814 /* JournalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7788142796723B005EE814 /* JournalController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B7787EB27965863005EE814 /* MyJurnal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJurnal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7787EB27965863005EE814 /* MyJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7787EE27965863005EE814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7787F027965863005EE814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B7787F227965863005EE814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B7787F527965863005EE814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B7787F727965868005EE814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7787FA27965868005EE814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7787FC27965868005EE814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B77880627966F4F005EE814 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		3B77880827966F69005EE814 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		3B77880A27967096005EE814 /* JournalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListViewController.swift; sourceTree = "<group>"; };
+		3B77880C2796712C005EE814 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		3B77880E27967174005EE814 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+		3B7788122796720F005EE814 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		3B7788142796723B005EE814 /* JournalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +52,7 @@
 		3B7787E227965862005EE814 = {
 			isa = PBXGroup;
 			children = (
-				3B7787ED27965863005EE814 /* MyJurnal */,
+				3B7787ED27965863005EE814 /* MyJournal */,
 				3B7787EC27965863005EE814 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +60,85 @@
 		3B7787EC27965863005EE814 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B7787EB27965863005EE814 /* MyJurnal.app */,
+				3B7787EB27965863005EE814 /* MyJournal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B7787ED27965863005EE814 /* MyJurnal */ = {
+		3B7787ED27965863005EE814 /* MyJournal */ = {
+			isa = PBXGroup;
+			children = (
+				3B778805279658EE005EE814 /* Model */,
+				3B778804279658E2005EE814 /* Controller */,
+				3B778803279658CD005EE814 /* Storyboards */,
+				3B77880227965881005EE814 /* Resources */,
+			);
+			path = MyJournal;
+			sourceTree = "<group>";
+		};
+		3B77880227965881005EE814 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				3B7787EE27965863005EE814 /* AppDelegate.swift */,
 				3B7787F027965863005EE814 /* SceneDelegate.swift */,
-				3B7787F227965863005EE814 /* ViewController.swift */,
-				3B7787F427965863005EE814 /* Main.storyboard */,
 				3B7787F727965868005EE814 /* Assets.xcassets */,
-				3B7787F927965868005EE814 /* LaunchScreen.storyboard */,
 				3B7787FC27965868005EE814 /* Info.plist */,
 			);
-			path = MyJurnal;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B778803279658CD005EE814 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B7787F427965863005EE814 /* Main.storyboard */,
+				3B7787F927965868005EE814 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B778804279658E2005EE814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B778811279671E1005EE814 /* Model Controller */,
+				3B778810279671C8005EE814 /* View Controller */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B778805279658EE005EE814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B77880627966F4F005EE814 /* Entry.swift */,
+				3B77880827966F69005EE814 /* Journal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B778810279671C8005EE814 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B77880A27967096005EE814 /* JournalListViewController.swift */,
+				3B77880C2796712C005EE814 /* EntryListTableViewController.swift */,
+				3B77880E27967174005EE814 /* EntryDetailViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		3B778811279671E1005EE814 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B7788122796720F005EE814 /* EntryController.swift */,
+				3B7788142796723B005EE814 /* JournalController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B7787EA27965863005EE814 /* MyJurnal */ = {
+		3B7787EA27965863005EE814 /* MyJournal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B7787FF27965868005EE814 /* Build configuration list for PBXNativeTarget "MyJurnal" */;
+			buildConfigurationList = 3B7787FF27965868005EE814 /* Build configuration list for PBXNativeTarget "MyJournal" */;
 			buildPhases = (
 				3B7787E727965863005EE814 /* Sources */,
 				3B7787E827965863005EE814 /* Frameworks */,
@@ -82,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = MyJurnal;
+			name = MyJournal;
 			productName = MyJurnal;
-			productReference = 3B7787EB27965863005EE814 /* MyJurnal.app */;
+			productReference = 3B7787EB27965863005EE814 /* MyJournal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B7787E627965862005EE814 /* Build configuration list for PBXProject "MyJurnal" */;
+			buildConfigurationList = 3B7787E627965862005EE814 /* Build configuration list for PBXProject "MyJournal" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B7787EA27965863005EE814 /* MyJurnal */,
+				3B7787EA27965863005EE814 /* MyJournal */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7787F327965863005EE814 /* ViewController.swift in Sources */,
+				3B77880727966F4F005EE814 /* Entry.swift in Sources */,
+				3B77880B27967096005EE814 /* JournalListViewController.swift in Sources */,
+				3B77880D2796712C005EE814 /* EntryListTableViewController.swift in Sources */,
 				3B7787EF27965863005EE814 /* AppDelegate.swift in Sources */,
+				3B7788152796723B005EE814 /* JournalController.swift in Sources */,
 				3B7787F127965863005EE814 /* SceneDelegate.swift in Sources */,
+				3B77880F27967174005EE814 /* EntryDetailViewController.swift in Sources */,
+				3B7788132796720F005EE814 /* EntryController.swift in Sources */,
+				3B77880927966F69005EE814 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +363,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyJurnal/Info.plist;
+				INFOPLIST_FILE = MyJournal/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya-kim.MyJurnal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya-kim.MyJournal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +391,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyJurnal/Info.plist;
+				INFOPLIST_FILE = MyJournal/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +402,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya-kim.MyJurnal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya-kim.MyJournal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B7787E627965862005EE814 /* Build configuration list for PBXProject "MyJurnal" */ = {
+		3B7787E627965862005EE814 /* Build configuration list for PBXProject "MyJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B7787FD27965868005EE814 /* Debug */,
@@ -350,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B7787FF27965868005EE814 /* Build configuration list for PBXNativeTarget "MyJurnal" */ = {
+		3B7787FF27965868005EE814 /* Build configuration list for PBXNativeTarget "MyJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B77880027965868005EE814 /* Debug */,
